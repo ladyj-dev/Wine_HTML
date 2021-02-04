@@ -23,15 +23,61 @@
   <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
   <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Wine Reviews</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
   <link href="assets/css/aricastyle.css" rel="stylesheet">
  
 </head>
+<meta charset='utf-8'>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Wine Data Visualization</title>
 
+<!-- Link to required libraries: D3.js, dc.js, crossfilter, and reductio -->
+<script src='https://dc-js.github.io/dc.js/js/d3.js' type='text/javascript'>
+</script>
+<script src='https://dc-js.github.io/dc.js/js/crossfilter.js' type='text/javascript'>
+</script>
+<script src='https://rawgit.com/crossfilter/reductio/master/reductio.js' type='text/javascript'>
+</script>
+<script src='https://dc-js.github.io/dc.js/js/dc.js' type='text/javascript'>
+</script>
+
+<!-- Link to required CSS libraries: dc.css and bootstrap -->
+<link href='https://dc-js.github.io/dc.js/css/dc.css' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+  integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="
 <body>
-  
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 jumbotron text-center">
+        <img src="winepic2.jpg" />
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-2">
+      </div>
+    </div>
+    <div id="sample-metadata" class="panel-body"></div>
+  </div>
+  </div>
+  <div class="col-md-5">
+    <div id="bar"></div>
+  </div>
+  <div class="col-md-5">
+    <div id="gauge"></div>
+  </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <div id="bubble"></div>
+    </div>
+  </div>
+  </div>
 
   <!-- ======= Mobile nav toggle button ======= --> 
   <!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>-->
