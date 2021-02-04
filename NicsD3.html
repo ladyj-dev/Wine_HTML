@@ -13,7 +13,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12 jumbotron text-center">
-        <img src="/assets/img/winepic2.jpg" />
+        <img src="assets/img/winepic2.jpg" />
       </div>
     </div>
     <div class="row">
@@ -131,7 +131,7 @@
     var priceChart = dc.barChart('#price-chart');
 
     // Use D3.js to read in the data csv
-    d3.csv('/Resources/wine-data-clean.csv').then(function (data) {
+    d3.csv("wine_data_clean.csv").then(function (data) {
 
       // First, the numerical data needs to be converted to javascript number types
       data.forEach(function (d) {
